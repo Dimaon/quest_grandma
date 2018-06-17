@@ -19,6 +19,7 @@ def stove_logic
       stove_logic if get_answer?
     elsif choice == 1 && $grandma_status != 'разрублена'
       puts 'Бабушка здоровенная и в печь не помещается.'
+      buffer
       stove_logic if get_answer?
     elsif choice == variants.size
       main_process

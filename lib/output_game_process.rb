@@ -26,12 +26,13 @@ def puts_variants(variants)
   end
 end
 # Вывод пустой строки и ожидания
-def buffer(seconds = 0)
+def buffer(seconds = 1)
   puts
   sleep seconds
 end
 
 def get_answer?(action = "1. Осмотреться")
+  buffer
   puts "Ваши действия: "
   puts action
   loop do

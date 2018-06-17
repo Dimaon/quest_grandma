@@ -1,5 +1,4 @@
 # encoding: utf-8
-
 # Подключаем методы с логикой игры
 require_relative "lib/game_statuses"
 require_relative "lib/game_logic"
@@ -8,7 +7,6 @@ require_relative "lib/output_game_process"
 # Квест В гостях у бабушки
 # Игра содержит сцены жестокости и насилия, не рекомендуется запускать лицам,
 # не достигшим 16-летнего возраста, психически неуравновешенным людям и беременным женщинам.
-
 puts "Предысловие..."
 buffer
 
